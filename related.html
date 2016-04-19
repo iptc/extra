@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Extra by iptc</title>
+        <link rel="stylesheet" href="https://iptc.github.io/extra/stylesheets/styles.css">
+        <link rel="stylesheet" href="https://iptc.github.io/extra/stylesheets/github-dark.css">
+        <!--[if lt IE 9]>
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    </head>
+    <body>
+    <header>
+        <h1>IPTC EXTRA - The EXTraction Rules Apparatus Related Work</h1>
+        <p><i>An Open Source Platform for Rules-Based Classification of News Content</i></p>
+    </header>
+        <div id="banner"> <span id="logo"></span> <a href="https://github.com/iptc/extra" class="button fork"><strong>View On GitHub</strong></a>
+            <div class="downloads"> <span>Downloads:</span>
+                <ul>
+                    <li><a href="https://github.com/iptc/extra/zipball/master" class="button">ZIP</a></li>
+                    <li><a href="https://github.com/iptc/extra/tarball/master" class="button">TAR</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end banner -->
+        <div class="wrapper">
+            <section>
+                <h3>Related Work</h3>
+                
+                <p>Taxonomies are used by many news organizations to classify their content. Classification is used in various ways, including to structure website navigation menus to help readers locate relevant content, to organize editorial workflows and to enrich search. News organizations classify news items using either automated or human means - and often a combination of the two (<a href="https://www.uie.com/articles/taxonomy_content_publishing">https://www.uie.com/articles/taxonomy_content_publishing</a>).</p>
+                
+                <p>Some organizations, such as the Associated Press, New York Times, Thomson Reuters and the BBC, have built their own taxonomies to classify news (<a href="http://www.poynter.org/news/media-innovation/222187/how-taxonomies-help-news-organizations-understand-and-categorize-their-content">http://www.poynter.org/news/media-innovation/222187/how-taxonomies-help-news-organizations-understand-and-categorize-their-content</a>). Many news organizations rely on the IPTC’s Media Topics as the basis of their classification of content (<a href="https://iptc.org/standards/media-topics">https://iptc.org/standards/media-topics</a>).</p>
+                
+                <p>The IPTC taxonomies may be applied manually by journalists or by archivists, often with quite inconsistent results. For example, this study discusses manual classification of Spanish and Portugese newspaper archives: <a href="http://ir.ii.uam.es/neptuno/publications/neptuno-esws04.pdf">http://ir.ii.uam.es/neptuno/publications/neptuno-esws04.pdf</a></p>
+                
+                <p>There have been various attempts to automatically classify news content using IPTC taxonomies. In general, this involves software using natural language processing, semantic analysis and statistical pattern matching techniques to analyze each news item, and identify relevant metadata tags. Automated classification systems have been created for news in many languages, including Arabic (<a href="https://vtechworks.lib.vt.edu/bitstream/handle/10919/51269/KananFoxArabicTextClassification.pdf">https://vtechworks.lib.vt.edu/bitstream/handle/10919/51269/KananFoxArabicTextClassification.pdf</a>), English (<a href="http://nlp.lsi.upc.edu/papers/montoyo01.pdf">http://nlp.lsi.upc.edu/papers/montoyo01.pdf</a>),
+Catalan and Portuguese (<a href="http://www.dfki.uni-kl.de/~bernardi/News/publication-download/SWCASE_NEWS.pdf">http://www.dfki.uni-kl.de/~bernardi/News/publication-download/SWCASE_NEWS.pdf</a>)
+and Spanish (<a href="http://link.springer.com/chapter/10.1007/978-3-540-74628-7_16#page-1">http://link.springer.com/chapter/10.1007/978-3-540-74628-7_16#page-1</a>).</p>
+           
+                <p>Automated classification systems require regular maintenance in order to remain relevant and up-to-date. Most classification workflows allow for manual overrides to the resulting classification, with problematic documents being set aside for further review. New content must be incorporated into existing or new categories. Subject matter experts are required to review problematic documents and to tend to the needs of the automated classification systems, to prevent results degrading over time. <a href="http://www.computerweekly.com/feature/Data-classification-why-it-is-important-and-how-to-do-it">http://www.computerweekly.com/feature/Data-classification-why-it-is-important-and-how-to-do-it</a></p>
+                
+                <p>There are many toolkits and software systems for doing statistical classification of text content, such as OpenNLP (<a href="http://opennlp.apache.org">http://opennlp.apache.org</a>), SRILM (<a href="http://www.speech.sri.com/projects/srilm">http://www.speech.sri.com/projects/srilm</a>) and NLTK (<a href="http://www.nltk.org">http://www.nltk.org</a>). However, none of these toolkits support the rules-based approach we plan for EXTRA. One open source toolkit that may be useful for building EXTRA is the Elasticsearch Percolator, which is designed to efficiently match queries (rules) to documents (news items): <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/search-percolate.html">https://www.elastic.co/guide/en/elasticsearch/reference/current/search-percolate.html</a></p>
+                
+                <p>Two open source frameworks which may be useful ways to deploy EXTRA are GATE (<a href="https://gate.ac.uk">https://gate.ac.uk</a>) and UIMA (<a href="https://uima.apache.org">https://uima.apache.org</a>). GATE and UIMA are designed to allow third-party components to be plugged into their standardized platforms, to make it easier for developers to discover and work with sophisticated linguistic analysis tools.</p>
+            </section>
+            <footer>
+                <p>Project maintained by <a href="https://github.com/iptc">iptc</a></p>
+                <p><small>Hosted on GitHub Pages — Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+            </footer>
+        </div>
+        <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    </body>
+</html>
