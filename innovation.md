@@ -1,0 +1,23 @@
+---
+layout: default
+title: IPTC EXTRA
+---
+## What Makes EXTRA Innovative?
+
+As a rule-based, multilingual classification system, EXTRA provides news publishers with several key capabilities: the ability to automatically categorize documents by subject (for example, terrorism, sports, Ringo Starr), the ability to author classification rule sets tailored to existing taxonomies and the ability to classify documents using the industry standard IPTC Media Topics taxonomy. By making these powerful capabilities freely available to the global news publishing community, the EXTRA project promises to catalyze a variety of innovative outcomes including intelligent aggregation, search and analytics. Below we detail each of these innovative outcomes. Following that, we describe the technological and editorial components of the system we propose to deliver.
+
+### Innovative Applications
+
+The ability to aggregate content by subject enables publishers to unlock tremendous value from their editorial output. With subject tags, publishers can provide their consumers with a variety of topic-specific products. News agencies can provide customers with subject-specific feeds (for example, all of the items about Angela Merkel). User-facing news providers can create landing pages for topics of interest to their readership (for example, all the items about a local star athlete). Mobile publishers can send push alerts to their readers whenever a new article is published on a topic of interest.
+
+News publishers can also leverage categorized documents to deliver intelligent search. Generally publishers provide search only over the text of their content archives. Most publishers have the capability to return a relevance ranked list of news documents that contain specific words. This approach has obvious drawbacks related to term ambiguity. When a user searches for the word "apple," is she looking for items about the technology firm, the fruit or the music label that released the Beatles' albums? With categorized documents, publishers can mitigate challenges of term ambiguity by providing the ability to retrieve documents by category. With the appropriate categories it then becomes possible for the user to search instead for documents categorized as being about "Apple Inc.", "Apple (fruit)" or "Apple (record label)."
+
+Another key benefit to publishers of categorizing their news archive is the ability to develop subject-specific analytics. Generally publishers track consumer behavior at the site wide level, the page level and across specific content verticals (sports, arts, opinion). When articles are classified according to subject, it becomes possible for publishers to also track consumer behavior at the topic level. For instance, with such analytics a publisher could determine that their coverage of "Local Restaurants" is generating far less engagement than their coverage of "Crime and Criminals." This kind of insight can prove extremely valuable in determining how to allocate editorial resources, how to sell advertising and how to promote news items.
+
+### Technical And Editorial Considerations
+
+The EXTRA system will consist of the following technical components: a formal specification of the EXTRA classification rules language, a software component for efficiently classifying documents according to such rules and documentation about how to deploy and operate this software component.
+
+There are two major approaches a news publishing organization might take to incorporate EXTRA into its editorial workflow: supervised or unsupervised. In the supervised approach, prior to the publication of a news item, the text of the item would be run through the EXTRA rules engine and members of the editorial staff would review the suggested categories for accuracy. In the unsupervised scenario, the news item would be published without human review of the EXTRA-suggested categories.
+
+Another important consideration for news publishing organizations will be the choice of classification rule sets. EXTRA will launch with two rule sets that provides support for classifying documents in two different European languages into the IPTC's Media Topic taxonomy. While this will certainly suffice for many publishers, others may require the ability to categorize documents into an alternate subject taxonomy. Doing so will require that publishers either map the IPTC Media Topics onto this alternate taxonomy or that publishers develop an ability to author EXTRA rule sets. And, of course, at the outset, support for languages beyond the two that the prototype will initially support will require that publishers author their own language-specific rule sets.
