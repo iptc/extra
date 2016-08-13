@@ -42,6 +42,6 @@ We envision the following phases for the design and development of EXTRA. (The p
 * Write guidebook for how to integrate EXTRA platform
 * Write guidebook for how to develop and test EXTRA rule sets
 
-First non-core open source contributor
+#### First non-core open source contributor
 
-First production deployment 
+#### First production deployment 
