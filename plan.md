@@ -5,6 +5,7 @@ title: IPTC EXTRA
 ## Longer Term Plan
 
 If the EXTRA platform prototype succeeds, IPTC would seek to pursue two goals, to make the effort sustainable over the long term:
+
 * Software deployed as a service within news organizations
 * Vibrant open source community
 
