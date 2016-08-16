@@ -4,7 +4,7 @@ title: IPTC EXTRA
 ---
 ## Commercial Considerations
 
-The core EXTRA platform will be open source and will not be directly monetized.
+The core EXTRA platform will be [open source](opensource.html) and will not be directly monetized by the IPTC.
 
 However, the EXTRA platform does create opportunities for monetization, including companies offering support services, hosting the EXTRA software as a service and integrating the EXTRA classification engine within commercial Content Management Systems.
 
