@@ -17,7 +17,7 @@ We envision the following phases for the design and development of EXTRA. (The p
 * Survey other open source efforts to see whether any could accelerate the development of EXTRA
 * Including GATE, UIMA, NLTK, OpenNLP, SRILM
 
-#### Evaluate existing open source projects and frameworks
+#### Design and develop technical approach
 
 * Design high-level technical approach, select implementation technologies
 * Design EXTRA API for maintaining rule sets and classifying documents
@@ -26,7 +26,7 @@ We envision the following phases for the design and development of EXTRA. (The p
 * Design the rule language and rule sets for applying the taxonomy to the two corpuses
 * Develop a minimum viable rules engine
 
-#### Evaluate existing open source projects and frameworks
+#### Setup EXTRA as an open source project
 
 * Configure source code management for EXTRA on github
 * Publish documentation - project overview, contribution guidelines
