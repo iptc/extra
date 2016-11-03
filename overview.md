@@ -8,4 +8,4 @@ For news publishers who are dissatisfied with either hand-tagging documents or s
 
 Unlike hand-tagging, EXTRA’s rules-based system will allow publishers to tag their news content with consistent tags, at speed and at scale. Unlike statistical approaches, which often require numerous annotated examples, EXTRA’s rules-based system allows publishers to rapidly adapt to breaking news and low-frequency topics. EXTRA’s use of finely tuned rules will avoid problems with ambiguity (“Police Can’t Stop Gambling”) and will precisely distinguish between similar topics, which are more challenging for statistical approaches.
 
-To facilitate adoption and consistency, the IPTC will also create EXTRA extraction rules for tagging documents in two different languages with its industry standard Media Topics vocabulary.
+To facilitate adoption and consistency, the IPTC will also create EXTRA extraction rules for tagging documents in two different languages with its industry standard [Media Topics](https://iptc.org/standards/media-topics/) vocabulary.
