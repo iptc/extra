@@ -1,1 +1,4 @@
-h1. GitHub Pages README file
+h1. Pages about the IPTC EXTRA project
+
+The HTML rendition of the pages is available at http://iptc.github.io/extra/
+
